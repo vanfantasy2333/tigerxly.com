@@ -15,7 +15,7 @@ $(document).ready(function () {
         return flag;
     }
 
-    if(!IsPC){
+    if(!IsPC()){
         $("#collapsibleNavbar").html('<ul class="nav navbar-nav"><li class="nav-item"><a class="nav-link text-light" href="about.html"><i class="fas fa-info-circle"></i> 关于</a></li><li class="nav-item"><a class="nav-link text-light" href="index.html"><i class="fa fa-home"></i> 主页</a></li></ul>');
     }
 
